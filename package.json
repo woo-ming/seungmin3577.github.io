@@ -8,6 +8,7 @@
   "scripts": {
     "start": "gitbook serve",
     "start:debug": "gitbook build ./ --log=debug --debug",
+    "prebuild": "rm -rf gitbook",
     "build": "gitbook build && cp -R ./_book/* ."
   }
 }
