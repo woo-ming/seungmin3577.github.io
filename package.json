@@ -1,0 +1,13 @@
+{
+  "name": "seungmin3577.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:seungmin3577/seungmin3577.github.io.git",
+  "author": "seungmin3577 <seungmin3577@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "gitbook serve",
+    "start:debug": "gitbook build ./ --log=debug --debug",
+    "build": "gitbook build && cp -R ./_book/* ."
+  }
+}
